@@ -325,13 +325,11 @@ nav a:hover {
   font-size: 0.75rem;
   margin-right: 5px;
 }
-.live {   heigth:100%;
-          width:100%;
-          cursor:pointer;
-          text-decoration: none;
-
+.live {       height: 100%;
+               width: 100%;
+              cursor: pointer;
+              text-decoration: none;
 }
-
 /* tablet responsive */
 @media screen and (max-width: 950px) {
   .container {
@@ -370,5 +368,4 @@ nav a:hover {
 }
 
 /* end of css */
-
 
