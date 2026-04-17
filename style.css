@@ -272,14 +272,15 @@ nav a:hover {
 /* portfolio */
 
 .project-container {
-  height: 700px;
+  height: fit-content;
   width: 100%;
   /* background-color: antiquewhite; */
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ; 
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 30px; 
+
 }
 .project {
   height: 100%;
@@ -325,7 +326,7 @@ nav a:hover {
   font-size: 0.75rem;
   margin-right: 5px;
 }
-.live {       
+.live {
               cursor: pointer;
               text-decoration: none;
 }
@@ -367,5 +368,3 @@ nav a:hover {
 }
 
 /* end of css */
-
-
