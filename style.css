@@ -272,7 +272,7 @@ nav a:hover {
 /* portfolio */
 
 .project-container {
-  height: 500px;   /*fit-content*/
+  height: fit-content;   /*fit-content*/
   width: 100%;
   /* background-color: antiquewhite; */
   display: grid;
@@ -283,7 +283,7 @@ nav a:hover {
 
 }
 .project {
-  height: 100%; /*100%*/
+  height: 500px; /*100%*/
   width: 100%;
   background-color: #1e1e1e;
   border-radius: 12px;
